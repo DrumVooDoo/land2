@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: Myriad Pro; 
+}
+.block{
+	width: 100%;
+	width: 1445px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+
+.video_bg{
+	position: relative;
+	background: url(video_bg.png);
+	background-size: cover;
+	width: 100%;
+	height: 810px;
+}
+.video_bg > video{
+	position: relative;
+	z-index: 0;
+}
+.conteiner_overlay{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+.slogan{
+	font: 50pt Exo;
+	text-align: center;
+	color: #282828;
+	margin-bottom: 60px;
+	opacity:
+}
+.play_video_icon:hover{
+	opacity: .6;
+}
+.try_now_button{
+	height: 50px;
+	width: 190px;
+	color: #ffffff;
+	background-color: #ff6d6d;
+	font: 12pt Exo;
+	text-align: center;
+	line-height: 2;
+	border-radius: 4px;
+	border: none;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.try_now_button:hover{
+	background-color: #f05757;
+}
+.under_button{
+	color: #282828;
+	font: 10pt Exo;
+	opacity: .6;
+}
