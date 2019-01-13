@@ -204,3 +204,71 @@ html{
 .design_slogan{
 	margin-bottom: 50px;
 }
+
+/*------clients section---------*/
+.clients{
+	background: url(clients_bg.png);
+	background-size: cover;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+.clients_wrapper{
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 165px 75px 165px;
+}
+.person{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-content: space-around;
+	text-align: center;
+}
+.avatar{
+	height: 75px;
+	width: 75px;
+	margin: 0 auto 25px auto;
+}
+.name_person{
+	color: #ffffff;
+	font: 16pt ExoMedium;
+	margin-bottom: 15px;
+}
+.status_person{
+	letter-spacing: 1px;
+}
+.comment{
+	color: #ffffff;
+	margin-top: 35px;
+	margin: 0 40px 0 40px;
+	font-size: 16px;
+}
+.wrapper_logos{
+	margin: 0 auto 85px auto;
+}
+.partner_logo{
+	margin: 0 50px 0 50px;
+}
+.browser{
+	width: 100%;
+	background-color: #f6f5f3;	
+}
+.browser_wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 105px 375px 0 375px;
+}
+.browser_image{
+	display: block;
+	margin: 110px auto 0 auto;
+}
+.browser_text{
+	margin-top: 0;
+}
