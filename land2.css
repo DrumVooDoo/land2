@@ -144,6 +144,8 @@ html{
 	background-color: #f6f5f3;
 	background-size: cover;
 	overflow: hidden;
+	position: relative;
+	z-index: 2;
 }
 .features_wrapper{
 	text-align: center;
@@ -167,3 +169,38 @@ html{
 	width: 65px;
 }
 
+/*-------design section---------*/
+.design{
+	position: relative;
+}
+.design:before{
+	content: ' ';
+	position: absolute;
+	height: 0;
+	width: 0;
+	bottom: 0;
+	left: 0;
+	border-bottom: 303px solid #ff6d6d;
+	border-left: 275px solid #ff6d6d;
+	border-top: 303px solid transparent;
+	border-right: 275px solid transparent;
+	z-index: 1;
+}
+.design_wrapper{
+	display: flex;
+	padding: 90px 200px 95px 60px;
+	flex-flow: row nowrap;
+}
+.mb_image{
+	height: 350px;
+	width: 605px;
+	margin-right: 50px;
+	z-index: 2;
+}
+.design_conteiner{
+	margin-top: 40px;
+
+}
+.design_slogan{
+	margin-bottom: 50px;
+}
